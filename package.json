@@ -1,0 +1,33 @@
+{
+  "name": "mazai-cli",
+  "version": "1.0.0",
+  "description": "一个快速创建vue项目的脚手架工具; A scaffold tool for quickly creating Vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsole/mazai-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "mazai",
+    "vue-cli"
+  ],
+  "author": "imsole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsole/mazai-cli/issues"
+  },
+  "homepage": "https://github.com/imsole/mazai-cli#readme",
+  "bin": {
+    "mazai-cli": "bin.js"
+  },
+  "dependencies": {
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "mkdirp": "^0.5.1",
+    "ora": "^4.0.3"
+  }
+}
