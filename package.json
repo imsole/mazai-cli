@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/imsole/mazai-cli#readme",
   "bin": {
-    "mazai-cli": "bin.js"
+    "mazai-cli": "./bin/index.js"
   },
   "dependencies": {
     "commander": "^4.0.1",
